@@ -1,5 +1,5 @@
 #
-# Powerline Double Purple - Tmux Themepack
+# Powerline Triple Purple - Tmux Themepack
 # https://github.com/jimeh/tmux-themepack
 #
 # Inspired by vim-powerline: https://github.com/powerline/powerline
@@ -112,8 +112,8 @@ set -goq  @theme-status-right-length 150
 set -goqF @theme-window-status-activity-bg "#{@theme-status-bg}"
 set -goqF @theme-window-status-activity-fg "#{@powerline-color-activity-1}"
 set -goq  @theme-window-status-separator ""
-set -goqF @theme-window-status-current-bg "#{@powerline-color-black-1}"
-set -goqF @theme-window-status-current-fg "#{@powerline-color-main-2}"
+set -goqF @theme-window-status-current-bg "#{@powerline-color-main-1}"
+set -goqF @theme-window-status-current-fg "#{@powerline-color-black-1}"
 set -goqF @theme-window-status-format "  #{@themepack-window-status-format}  "
 set -goqF @theme-window-status-current-format "#[fg=#{@theme-status-bg},bg=#{@theme-window-status-current-bg}]#[fg=#{@theme-window-status-current-fg},nobold] #{@themepack-window-status-current-format} #[fg=#{@theme-status-bg},bg=#{@theme-window-status-current-bg},nobold]"
 
